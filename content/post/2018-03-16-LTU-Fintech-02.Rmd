@@ -5,7 +5,7 @@ date: '2018-03-16'
 output:
   html_document:
     theme: united
-    toc: yes
+    toc: yes   
   pdf_document:
     highlight: zenburn
     toc: yes
