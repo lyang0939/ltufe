@@ -21,33 +21,12 @@
     </item>
     
     <item>
-      <title>A Plain Markdown Post</title>
-      <link>/2016/12/30/a-plain-markdown-post/</link>
-      <pubDate>Fri, 30 Dec 2016 21:49:57 -0700</pubDate>
+      <title>嶺東科大-FinTech-第一堂課</title>
+      <link>/2018/03/15/%E5%B6%BA%E6%9D%B1%E7%A7%91%E5%A4%A7-fintech-%E7%AC%AC%E4%B8%80%E5%A0%82%E8%AA%B2/</link>
+      <pubDate>Thu, 15 Mar 2018 00:00:00 +0000</pubDate>
       
-      <guid>/2016/12/30/a-plain-markdown-post/</guid>
-      <description>This is a post written in plain Markdown (*.md) instead of R Markdown (*.Rmd). The major differences are:
- You cannot run any R code in a plain Markdown document, whereas in an R Markdown document, you can embed R code chunks (```{r}); A plain Markdown post is rendered through Blackfriday, and an R Markdown document is compiled by rmarkdown and Pandoc.  There are many differences in syntax between Blackfriday&amp;rsquo;s Markdown and Pandoc&amp;rsquo;s Markdown.</description>
-    </item>
-    
-    <item>
-      <title>Hello R Markdown</title>
-      <link>/2015/07/23/hello-r-markdown/</link>
-      <pubDate>Thu, 23 Jul 2015 21:13:14 -0500</pubDate>
-      
-      <guid>/2015/07/23/hello-r-markdown/</guid>
-      <description>R Markdown This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see http://rmarkdown.rstudio.com.
-You can embed an R code chunk like this:
-summary(cars) ## speed dist ## Min. : 4.0 Min. : 2.00 ## 1st Qu.:12.0 1st Qu.: 26.00 ## Median :15.0 Median : 36.00 ## Mean :15.4 Mean : 42.98 ## 3rd Qu.</description>
-    </item>
-    
-    <item>
-      <title>Lorem Ipsum</title>
-      <link>/2015/01/01/lorem-ipsum/</link>
-      <pubDate>Thu, 01 Jan 2015 13:09:13 -0600</pubDate>
-      
-      <guid>/2015/01/01/lorem-ipsum/</guid>
-      <description>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</description>
+      <guid>/2018/03/15/%E5%B6%BA%E6%9D%B1%E7%A7%91%E5%A4%A7-fintech-%E7%AC%AC%E4%B8%80%E5%A0%82%E8%AA%B2/</guid>
+      <description>第1步：R工作目錄指令 setwd( &amp;quot;/Users/StevenYang/Desktop/&amp;quot;) getwd() ## [1] &amp;quot;/Users/StevenYang/Desktop&amp;quot;  第2步：R使用quantmod套件指令 ## Loading required package: xts ## Loading required package: zoo ## ## Attaching package: &amp;#39;zoo&amp;#39; ## The following objects are masked from &amp;#39;package:base&amp;#39;: ## ## as.Date, as.Date.numeric ## Loading required package: TTR ## Version 0.4-0 included new data defaults. See ?getSymbols.  第3步：R網路抓取Yahoo中AAPL股價資料 getSymbols(&amp;quot;AAPL&amp;quot;) ## &amp;#39;getSymbols&amp;#39; currently uses auto.assign=TRUE by default, but will ## use auto.assign=FALSE in 0.5-0. You will still be able to use ## &amp;#39;loadSymbols&amp;#39; to automatically load data.</description>
     </item>
     
   </channel>
