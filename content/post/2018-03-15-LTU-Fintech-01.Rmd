@@ -1,3 +1,4 @@
+library(rvest)
 ---
 title: "嶺東科大-FinTech-第1堂課"
 author: '楊永列'

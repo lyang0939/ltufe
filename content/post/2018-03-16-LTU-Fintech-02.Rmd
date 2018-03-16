@@ -16,6 +16,9 @@ institute: 嶺東科技大學財經學院(台灣台中)
 ---  
   
 # 第1步：R工作目錄指令 
+```{r}
+
+```
 
 ```{r}
 setwd( "/Users/StevenYang/Desktop/rmd")
